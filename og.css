@@ -14,7 +14,7 @@ body{
 }
 
 .wrapper{
-    height: 100vh;
+    height: 100%;
 	width: 1200px;
 	margin: 50px auto;
 	background: #fff;
@@ -116,7 +116,7 @@ body{
     font-weight: 300;
     font-size: 17px;
     color: blue;
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     margin-top: 10px;
     text-transform: uppercase;
 }
@@ -144,4 +144,45 @@ body{
 .skills-section{
     display: flex;
     flex-direction: row;
+}
+
+.company-role{
+    letter-spacing: 0.5px;
+    color: blue;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.profexp{
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 17px;
+    color: blue;
+    margin-bottom: 2px;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+.work-exp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sellani{
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.date{
+    margin-right: -5x;
+}
+
+.ul-desc-li-first{
+    margin-left: 50px;
+
+}
+
+.ul-desc-li-second{
+    margin-left: 50px;
 }
