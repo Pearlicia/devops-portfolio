@@ -170,8 +170,12 @@ body{
 }
 
 .sellani{
-    font-weight: 300;
+    font-weight: 700;
     font-size: 16px;
+}
+
+.italic{
+    font-style: italic;
 }
 
 .date{
@@ -185,4 +189,18 @@ body{
 
 .ul-desc-li-second{
     margin-left: 50px;
+}
+
+.institute{
+    display: flex;
+    flex-direction: row;
+}
+
+.institution{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.institute-deg{
+    margin-left: 8px;
 }
